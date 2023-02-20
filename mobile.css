@@ -1,4 +1,41 @@
-@media only screen and (max-device-width: 480px) { /* Change to whatever media query you require */
+.label-menu,
+.checkbox{
+    display: none;
+}
+
+@media only screen and (max-device-width: 480px) {
+    .menu {
+        display: none;
+        position:absolute;
+        top: 4.6875rem;
+        left: 0;
+        background-color: #424242;
+        text-align: center;
+        width: 100%;
+        height: 200px;
+        z-index: 1;
+        margin-top: 50px;
+    }
+    .label-menu{
+        display: flex;
+        align-items: center;
+        color: aliceblue;
+        cursor: pointer;
+        padding-block: 1rem;
+        gap: 0.5rem;
+        font-size: 30px;
+        
+    }
+    .menu li{
+        margin-bottom: 1.5rem;
+        font-size: 20px;
+        
+        
+    }
+    .checkbox:checked ~ .menu{
+        display: block;
+    }
+    
     #sobre img{
         position: absolute;
         width: 400px;
