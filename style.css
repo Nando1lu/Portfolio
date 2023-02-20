@@ -32,6 +32,7 @@ header a{
     padding: 10px;
     color: #FAFAFA;
 }
+
 #sobre{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     padding: 100px;
@@ -80,15 +81,8 @@ header a{
     
 }
 #divisao{
-    padding: 3px;
+    padding: 1px;
     background-color: #424242;
-}
-i{
-   display: flex;
-   justify-content: center;
-   margin-top: -34px;
-   color: #424242;
-   
 }
 #projetos{   
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;  
@@ -115,11 +109,6 @@ i{
     flex: 0 0 33.3333%;
     max-width: 33.3333%;
   }
-  
-#divisao2{
-    padding: 3px;
-    background-color: #424242;
-}
 form {
     width: 50%;
     margin: 0 auto;

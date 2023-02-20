@@ -1,0 +1,11 @@
+@media only screen and (max-device-width: 480px) { /* Change to whatever media query you require */
+    #sobre img{
+        position: absolute;
+        width: 400px;
+        top: 15%;
+        
+    }
+    #sobre a{
+        width: 150px;
+    }
+}
