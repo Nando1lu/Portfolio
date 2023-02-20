@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&family=Ubuntu:wght@400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    
+}
+body{
+    background-color: #FAFAFA;
+    max-width: 1200px;
+    margin:  0 auto;
+}
+header{
+    padding: 9px 0;
+    text-align: right;
+    background-color: #424242;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+header h1{
+    position: absolute;
+    padding: 0px 10px;
+    color: #FAFAFA;
+    
+}
+header li{
+    display: inline-flex;
+    
+}
+header a{
+    list-style: none;
+    padding: 10px;
+    color: #FAFAFA;
+}
+#sobre{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 100px;
+}
+#sobre img{
+    position: absolute;
+    left: 50%;
+    top: 20%;
+}
+#sobre h2{
+    font-size: 100px;
+    color: #424242;
+
+}
+#sobre a{
+    list-style: none;
+    color: #848484;
+    border: solid #424242 0.5px;
+    border-radius: 10px;
+    background-color: #FAFAFA;
+    padding: 10px;
+    position: absolute;
+    font-weight: normal;
+}
+#sobre span{
+    font-size: 60px;
+    font-weight: 200;
+}
+#sobre p{
+    font-size: 25px;
+    font-weight: bold;
+    color: #848484;
+}
+#sobre_mim{
+    margin-top: 200px;
+
+}
+#sobre_mim h2{
+    font-size: 40px;
+    text-align: center;
+
+}
+#sobre_mim p{
+    font-size: 20px;
+    font-weight: lighter;
+    
+}
+#divisao{
+    padding: 3px;
+    background-color: #424242;
+}
+i{
+   display: flex;
+   justify-content: center;
+   margin-top: -34px;
+   color: #424242;
+   
+}
+#projetos{   
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;  
+  
+}
+#projetos h2{
+    font-size: 100px;
+    color: #424242;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.card-container {
+    display: flex;
+    text-align: center;
+    margin-bottom: 220px;
+    color: #424242;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+  
+  .card {
+    flex: 0 0 33.3333%;
+    max-width: 33.3333%;
+  }
+  
+#divisao2{
+    padding: 3px;
+    background-color: #424242;
+}
+form {
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  
+  input[type="text"],
+  input[type="email"] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  input[type="submit"] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #45a049;
+}
+#contato{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;  
+}
+#contato h2{
+    font-size: 100px;
+    color: #424242;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+    
+}
+#redes-sociais{
+    display: flex;
+    justify-content: center;
+}
+#redes-sociais img{
+    padding: 5px;
+    
+}
+
+footer{
+    background-color: #424242;
+    font: bolder;
+    color: #FAFAFA;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    margin-top: 100px;
+}
