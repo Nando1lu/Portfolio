@@ -46,9 +46,16 @@
         width: 150px;
     }
 
-   #idade{
-    height: 100%;
-   }
+    #sobre{
+        height: 100vw;
+        
+    }
 
-   
+    #projetos{
+        margin-top: 100vw;
+        margin-bottom: 100vw;
+    }
+    #projetos h2{
+        margin-top: 50%;
+    }
 }
