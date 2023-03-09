@@ -35,20 +35,39 @@
     .checkbox:checked ~ .menu{
         display: block;
     }
-    
-    #sobre img{
-        position: absolute;
-        width: 400px;
-        top: 15%;
-        
+    #sobre span{
+        font-size: 80px
+    }
+    #sobre p{
+        font-size: 40px
     }
     #sobre a{
-        width: 150px;
+        font-size: 25px
+    }
+    #sobre img{
+        position: relative;
+        width: 500px;
+        top: 20%;
+        justify-content: center;
+        display: block;
+        margin-left: -30%;
+        margin-right: auto;
+        margin-bottom: 50px;
+ 
+    }
+    #sobre_mim h2{
+        font-size: 100px
+    }
+    #sobre_mim p{
+        font-size: 40px;
+        font-weight: lighter;
+    }
+    #sobre a{
+        width: 200px;
     }
 
     #sobre{
         height: 100vw;
-        
     }
 
     #projetos{
