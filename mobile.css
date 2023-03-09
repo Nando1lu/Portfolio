@@ -2,7 +2,12 @@
 .checkbox{
     display: none;
 }
-
+#social{
+    display: none;
+}
+#git{
+    display: none;
+}
 @media only screen and (max-device-width: 480px) {
     .menu {
         display: none;
@@ -71,10 +76,17 @@
     }
 
     #projetos{
-        margin-top: 100vw;
-        margin-bottom: 100vw;
+        margin-top: 100%;
+        margin-bottom: 100%;
     }
     #projetos h2{
-        margin-top: 50%;
+        margin-top: 20%;
+        font-size: 150px;
     }
+    #contato h2{
+        font-size: 150px;
+    }
+    
 }
+
+
